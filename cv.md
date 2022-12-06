@@ -23,5 +23,5 @@ There is a great desire and aspiration to get into a team of people who know a l
   * 2016-2020
 
 ### Languages: ###
-Russian: C2
-English: B1/B2
+* Russian: C2
+* English: B1/B2
