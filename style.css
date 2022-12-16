@@ -1,1 +1,48 @@
+*{
+    font-family: Arial, sans-serif;
+}
 
+#container{
+    width: 900px;
+    margin: 50px auto;
+    border: 1px solid;
+    display: flex;
+}
+
+.left-side{
+
+    background-color: rgb(0, 0, 0);
+}
+
+.photo img{
+    height: 300px;
+}
+
+.contacts{
+    text-align:center;
+    color: white;
+}
+
+.contacts a{
+    color: white;
+    text-decoration: none;
+}
+
+.name{
+    font-size: 0.75em;
+}
+
+.profession{
+    font-size: 0.75em;
+}
+
+.contact{
+    text-align: left;
+    margin: 5px;
+    font-size: 0.75em;
+}
+
+.contact img{
+    width: 30px;
+    height: 30px;
+}
