@@ -22,10 +22,11 @@
     font-size: 1em;
 }
 
-.category-ls{
+.category-ls h2{
     margin: 5px;
     border: 2px solid white;
-    padding-bottom: 1em;
+    margin-top: 1em;
+    background-color: gray;
 }
 
 .photo img{
@@ -73,24 +74,42 @@
     text-align: center;
     color: black;
     font-size: 1em;
+    margin: 5%;
 }
 
-.category-rs{
+.who-am-i{
     border: 1px solid black;
+    text-align: left;
+    padding: 0em 2em;
+}
+
+.who-am-i h1{
+    font-size: 4em;
+}
+
+.who-am-i h2{
+    font-size: 3em;
+}
+
+.category-rs h2{
     margin: 5px;
-    padding-bottom: 1em;
+    border: 2px solid black;
+    margin-top: 1em;
+    background-color: gray;
 }
 
 .category-rs p{
     text-align: justify;
     margin: 5px;
-    font-size: larger;
-    text-indent: 5%;
+    font-size: 1.5em;
 }
 
-.category-rs li{
+.category-rs ul{
     text-align: left;
-    margin: 5px;
     font-size: 1em;
-    text-indent: 5%;
+}
+
+.category-rs ol{
+    text-align: left;
+    font-size: 1.5em;
 }
