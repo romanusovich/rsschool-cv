@@ -8,7 +8,16 @@
     <title>This is Roman Usovich</title>
 </head>
 <body>
-    <main id="container">
+    <nav>
+        <ul>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
         <div class="left-side">
             <div class="photo">
                 <img src="data/photo.jpg" alt="My Photo">
@@ -122,19 +131,19 @@
             </div>
             
             <div class="category-rs about-me">
-                <h2>About me</h2>
+                <h2 id="abou-me">About me</h2>
                 <p>I strive to get into a team of people who know a lot about development in order to gain experience and skills. I am currently studying at RS School JS/FE. Ready to explore other technologies. Ready to relocate.</p>
             </div>
 
             <div class="category-rs projects">
-                <h2>Projects</h2>
+                <h2 id="projects">Projects</h2>
                 <p><a href="https://github.com/romanusovich/college">Here</a> you can find my college project.</p>
                 <p>Desktop application for accounting of college graduates.</p>
                 <p>Stack: C#, WPF, MVVM, Entity Framework</p>
             </div>
 
             <div class="category-rs education">
-                <h2>Education</h2>
+                <h2 id="education">Education</h2>
                 <ol>
                     <li>
                         Polotsk State Economic College / Information Technology Software
@@ -154,7 +163,7 @@
             </div>
 
             <div class="category-rs languages">
-                <h2>Languages</h2>
+                <h2 id="languages">Languages</h2>
                 <ol>
                     <li>Russian - Native speaker</li>
                     <li>English - B1-B2</li>
