@@ -1,6 +1,6 @@
 :root{
-    --left-side-width: 300px;
-    --cv-width: 1024px;
+    --left-side-width: 40%;
+    --cv-width: 75%;
 }
 
 
@@ -54,8 +54,12 @@ nav li{
     background-color: gray;
 }
 
+.photo{
+    width: 100%;
+}
+
 .photo img{
-    width: var(--left-side-width);
+    width: 100%;
 }
 
 .skills table{
