@@ -15,7 +15,7 @@
     display: flex;
 }
 
-nav{
+nav, footer{
     border: 1px solid black;
     margin: 0 auto;
     width: var(--cv-width);
@@ -37,6 +37,33 @@ nav li{
     float: left;
     list-style: none;
     margin: 0 2rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul{
+    display: inline-flex;
+}
+
+footer li{
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    margin: 0 10rem;
+}
+
+.rslogo img{
+    filter: invert(100%);
+    width: 5rem;
+}
+
+.ghicon img{
+    width: 2rem;
+    height: 2rem;
 }
 
 .left-side{
