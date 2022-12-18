@@ -126,7 +126,7 @@ footer li{
 }
 
 .right-side{
-    width: 100%;
+    width: 60%;
     text-align: center;
     color: black;
     font-size: 1em;
@@ -171,6 +171,7 @@ footer li{
 }
 
 .code-example{
+    white-space: pre-wrap;
     text-align: left;
     background-color: lightgray;
     border: 1px solid black;
