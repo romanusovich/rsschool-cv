@@ -142,6 +142,43 @@
                 <p><a href="https://github.com/romanusovich/college">Here</a> you can find my college project.</p>
                 <p>Desktop application for accounting of college graduates.</p>
                 <p>Stack: C#, WPF, MVVM, Entity Framework</p>
+                <pre class="code-example">
+                    <code>
+// Команда на добавление выпускника
+private RelayCommand addCommandGraduate;
+public RelayCommand AddCommandGraduate
+{
+    get
+    {
+        return addCommandGraduate ??
+        (addCommandGraduate = new RelayCommand(obj =>
+        {
+            try
+            {
+                var graduate = new Выпускник(SelectedYear.ID_Года_выпуска);
+                Graduates.Add(graduate);
+
+                graduate.Распределение = new ObservableCollection<Распределение>() { new Распределение(graduate.ID_Выпускника) };
+                graduate.Распределение.First().Информация = new ObservableCollection<Информация_о_распределении>();
+                for (int i = 0; i <= 6; i++)
+                {
+                    graduate.Распределение.First().Информация.Add(new Информация_о_распределении() 
+                        { ID_Распределения = graduate.Распределение.First().ID_Распределения, Номер_полугодия = i });
+                }
+
+                SelectedGraduate = graduate;
+            }
+            catch
+            {
+                Graduates.Remove(SelectedGraduate);
+                MessageBox.Show("Выберите год выпуска. " +
+                    "\nЕсли год выпуска выбран, а ошибка осталась, то обратитесь к разработчику", "Не удалось вставить строку");
+            }
+        }));
+    }
+}
+                    </code>
+                </pre>
             </div>
 
             <div class="category-rs education">
