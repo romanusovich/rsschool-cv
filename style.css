@@ -1,1 +1,178 @@
+:root{
+    --left-side-width: 40%;
+    --cv-width: 75%;
+}
 
+*{
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width: var(--cv-width);
+    margin: 0 auto;
+    border: 1px solid;
+    display: flex;
+}
+
+nav, footer{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: var(--cv-width);
+    text-align: center;
+    background-color: black;
+}
+
+nav a{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+nav li{
+    float: left;
+    list-style: none;
+    margin: 0 2rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer li{
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    margin: 0 10rem;
+}
+
+.rslogo img{
+    filter: invert(100%);
+    width: 5rem;
+}
+
+.ghicon img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.left-side{
+    width: var(--left-side-width);
+    background-color: rgb(0, 0, 0);
+    text-align:center;
+    color: white;
+    font-size: 1em;
+}
+
+.category-ls h2{
+    margin: 5px;
+    border: 2px solid white;
+    margin-top: 1em;
+    background-color: gray;
+}
+
+.photo{
+    width: 100%;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.skills table{
+    text-align: right;
+    margin: 0px 5px;
+    width: 90%;
+}
+
+.skills td{
+    width: 50%;
+    padding: 0px 5px;
+}
+
+.progress-bar-border{
+    border: 1px solid white;
+    background-color: gray;
+}
+
+.progress-bar-progress{
+    background-color: white;
+    height: 0.5em;
+}
+
+.contacts table{
+    text-align: left;
+    margin: 0px 5px;
+}
+
+.contacts img{
+    width: 30px;
+    height: 30px;
+}
+
+.contacts a{
+    color: white;
+    text-decoration: none;
+}
+
+.right-side{
+    width: 60%;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    margin: 5%;
+}
+
+.who-am-i{
+    border: 1px solid black;
+    text-align: left;
+    padding: 0em 2em;
+}
+
+.who-am-i h1{
+    font-size: 4em;
+}
+
+.who-am-i h2{
+    font-size: 3em;
+}
+
+.category-rs h2{
+    margin: 5px;
+    border: 2px solid black;
+    margin-top: 1em;
+    background-color: gray;
+}
+
+.category-rs p{
+    text-align: justify;
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+.category-rs ul{
+    text-align: left;
+    font-size: 1em;
+}
+
+.category-rs ol{
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.code-example{
+    white-space: pre-wrap;
+    text-align: left;
+    background-color: lightgray;
+    border: 1px solid black;
+}
