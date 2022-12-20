@@ -158,9 +158,9 @@ public RelayCommand AddCommandGraduate
                 var graduate = new Выпускник(SelectedYear.ID_Года_выпуска);
                 Graduates.Add(graduate);
 
-                graduate.Распределение = new ObservableCollection<Распределение>() { new Распределение(graduate.ID_Выпускника) };
-                graduate.Распределение.First().Информация = new ObservableCollection<Информация_о_распределении>();
-                for (int i = 0; i <= 6; i++)
+                graduate.Распределение = new ObservableCollection&lt;Распределение>() { new Распределение(graduate.ID_Выпускника) };
+                graduate.Распределение.First().Информация = new ObservableCollection&lt;Информация_о_распределении>();
+                for (int i = 0; i &lt;= 6; i++)
                 {
                     graduate.Распределение.First().Информация.Add(new Информация_о_распределении() 
                         { ID_Распределения = graduate.Распределение.First().ID_Распределения, Номер_полугодия = i });
