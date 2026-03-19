@@ -23,6 +23,10 @@ I strive to get into a team of people who know a lot about development in order 
 - Entity Framework
 
 ### Projects: ###
+* https://romanusovich.github.io/plants/plants/
+* Web application about plants
+* https://rainbow-kleicha-8dc7e2.netlify.app/
+* Web application that helps you feel calm, keep focus, and stay energized
 * https://github.com/romanusovich/college
 * Desktop application for accounting of college graduates
 * C#, WPF, MVVM, Entity Framework
