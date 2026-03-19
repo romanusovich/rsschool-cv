@@ -41,4 +41,5 @@ I strive to get into a team of people who know a lot about development in order 
 
 ### Languages: ###
 * Russian: C2
-* English: B1/B2
+* English: B2
+* Polish: B1
