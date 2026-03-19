@@ -10,6 +10,10 @@
 ### About me: ###
 I strive to get into a team of people who know a lot about development in order to gain experience and skills. I am currently studying at RS School JS/FE. Ready to explore other technologies. Ready to relocate.
 #### Work skills: ####
+- HTML
+- CSS
+- JavaScript
+- NodeJS
 - C#
 - ASP.NET Core MVC
 - WPF
