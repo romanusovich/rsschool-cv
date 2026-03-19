@@ -37,7 +37,7 @@ I strive to get into a team of people who know a lot about development in order 
   * 2016-2020
 
 ### Location: ###
-* Belarus, Novopolotsk
+* Poland, Nowy Dwor Mazowiecki
 
 ### Languages: ###
 * Russian: C2
