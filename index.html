@@ -17,7 +17,7 @@
             </ul>
         </nav>
     </header>
-    
+
     <main class="container">
         <div class="left-side">
             <div class="photo">
@@ -83,7 +83,7 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="category-ls contacts">
                 <h2>Contacts</h2>
                 <ul>
@@ -110,16 +110,16 @@
                 <h2>Location</h2>
                 <p>Poland, Nowy Dwor Mazowiecki</p>
             </div>
-            
+
         </div>
 
         <div class="right-side">
-            
+
             <div class="who-am-i">
                 <h1>Roman Usovich</h1>
                 <h2>.NET Developer</h2>
             </div>
-            
+
             <div class="category-rs about-me">
                 <h2 id="abou-me">About me</h2>
                 <p>I strive to get into a team of people who know a lot about development in order to gain experience and skills. I am currently studying at RS School JS/FE. Ready to explore other technologies. Ready to relocate.</p>
@@ -130,43 +130,7 @@
                 <p><a href="https://github.com/romanusovich/college">Here</a> you can find my college project.</p>
                 <p>Desktop application for accounting of college graduates.</p>
                 <p>Stack: C#, WPF, MVVM, Entity Framework</p>
-                <pre class="code-example">
-                    <code>
-// Команда на добавление выпускника
-private RelayCommand addCommandGraduate;
-public RelayCommand AddCommandGraduate
-{
-    get
-    {
-        return addCommandGraduate ??
-        (addCommandGraduate = new RelayCommand(obj =>
-        {
-            try
-            {
-                var graduate = new Выпускник(SelectedYear.ID_Года_выпуска);
-                Graduates.Add(graduate);
-
-                graduate.Распределение = new ObservableCollection&lt;Распределение>() { new Распределение(graduate.ID_Выпускника) };
-                graduate.Распределение.First().Информация = new ObservableCollection&lt;Информация_о_распределении>();
-                for (int i = 0; i &lt;= 6; i++)
-                {
-                    graduate.Распределение.First().Информация.Add(new Информация_о_распределении() 
-                        { ID_Распределения = graduate.Распределение.First().ID_Распределения, Номер_полугодия = i });
-                }
-
-                SelectedGraduate = graduate;
-            }
-            catch
-            {
-                Graduates.Remove(SelectedGraduate);
-                MessageBox.Show("Выберите год выпуска. " +
-                    "\nЕсли год выпуска выбран, а ошибка осталась, то обратитесь к разработчику", "Не удалось вставить строку");
-            }
-        }));
-    }
-}
-                    </code>
-                </pre>
+                <pre class="code-example"></pre>
             </div>
 
             <div class="category-rs education">
@@ -197,9 +161,9 @@ public RelayCommand AddCommandGraduate
                 </ol>
             </div>
         </div>
-        
-    </main>  
-    
+
+    </main>
+
     <footer>
         <ul>
             <li class="rslogo">
