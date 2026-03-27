@@ -10,6 +10,10 @@
 ### About me: ###
 I strive to get into a team of people who know a lot about development in order to gain experience and skills. I am currently studying at RS School JS/FE. Ready to explore other technologies. Ready to relocate.
 #### Work skills: ####
+- HTML
+- CSS
+- JavaScript
+- NodeJS
 - C#
 - ASP.NET Core MVC
 - WPF
@@ -19,9 +23,13 @@ I strive to get into a team of people who know a lot about development in order 
 - Entity Framework
 
 ### Projects: ###
+* https://romanusovich.github.io/plants/plants/
+  * Web application about plants
+* https://rainbow-kleicha-8dc7e2.netlify.app/
+  * Web application that helps you feel calm, keep focus, and stay energized
 * https://github.com/romanusovich/college
-* Desktop application for accounting of college graduates
-* C#, WPF, MVVM, Entity Framework
+  * Desktop application for accounting of college graduates
+  * C#, WPF, MVVM, Entity Framework
 
 ### Education: ###
 * Polotsk State Economic College / Information Technology Software
@@ -29,8 +37,9 @@ I strive to get into a team of people who know a lot about development in order 
   * 2016-2020
 
 ### Location: ###
-* Belarus, Novopolotsk
+* Poland, Nowy Dwor Mazowiecki
 
 ### Languages: ###
 * Russian: C2
-* English: B1/B2
+* English: B2
+* Polish: B1
