@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>This is Roman Usovich</title>
+	<title>CV Roman Usovich</title>
 </head>
 <body>
     <header>
@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    
+
     <main class="container">
         <div class="left-side">
             <div class="photo">
@@ -28,57 +28,57 @@
             <div class="category-ls skills">
                 <h2>Skills</h2>
                 <ul>
+					<li>
+						<p>HTML</p>
+						<div class="progress-bar-border">
+							<div class="progress-bar-progress" style="width: 60%;"></div>
+						</div>
+					</li>
+					<li>
+						<p>CSS</p>
+						<div class="progress-bar-border">
+							<div class="progress-bar-progress" style="width: 60%;"></div>
+						</div>
+					</li>
+					<li>
+						<p>JavaScript</p>
+						<div class="progress-bar-border">
+							<div class="progress-bar-progress" style="width: 70%;"></div>
+						</div>
+					</li>
                     <li>
                         <p>C#</p>
                         <div class="progress-bar-border">
-                            <div class="progress-bar-progress" style="width: 65%;"></div>
+                            <div class="progress-bar-progress" style="width: 70%;"></div>
                         </div>
                     </li>
                     <li>
-                        <p>ASP.NET Core</p>
+                        <p>ASP.NET Web Api</p>
                         <div class="progress-bar-border">
-                            <div class="progress-bar-progress" style="width: 35%"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <p>WPF</p>
-                        <div class="progress-bar-border">
-                            <div class="progress-bar-progress" style="width: 60%"></div>
+                            <div class="progress-bar-progress" style="width: 70%;"></div>
                         </div>
                     </li>
                     <li>
                         <p>SQL</p>
                         <div class="progress-bar-border">
-                            <div class="progress-bar-progress" style="width: 50%"></div>
+                            <div class="progress-bar-progress" style="width: 50%;"></div>
                         </div>
                     </li>
                     <li>
                         <p>LINQ</p>
                         <div class="progress-bar-border">
-                            <div class="progress-bar-progress" style="width: 60%"></div>
+                            <div class="progress-bar-progress" style="width: 60%;"></div>
                         </div>
                     </li>
                     <li>
                         <p>EF Core</p>
                         <div class="progress-bar-border">
-                            <div class="progress-bar-progress" style="width: 60%"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <p>HTML</p>
-                        <div class="progress-bar-border">
-                            <div class="progress-bar-progress" style="width: 30%"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <p>CSS</p>
-                        <div class="progress-bar-border">
-                            <div class="progress-bar-progress" style="width: 20%;;"></div>
+                            <div class="progress-bar-progress" style="width: 60%;"></div>
                         </div>
                     </li>
                 </ul>
             </div>
-            
+
             <div class="category-ls contacts">
                 <h2>Contacts</h2>
                 <ul>
@@ -103,18 +103,18 @@
 
             <div class="category-ls location">
                 <h2>Location</h2>
-                <p>Belarus, Novopolotsk</p>
+                <p>Poland, Nowy Dwor Mazowiecki</p>
             </div>
-            
+
         </div>
 
         <div class="right-side">
-            
+
             <div class="who-am-i">
                 <h1>Roman Usovich</h1>
                 <h2>.NET Developer</h2>
             </div>
-            
+
             <div class="category-rs about-me">
                 <h2 id="abou-me">About me</h2>
                 <p>I strive to get into a team of people who know a lot about development in order to gain experience and skills. I am currently studying at RS School JS/FE. Ready to explore other technologies. Ready to relocate.</p>
@@ -122,46 +122,39 @@
 
             <div class="category-rs projects">
                 <h2 id="projects">Projects</h2>
-                <p><a href="https://github.com/romanusovich/college">Here</a> you can find my college project.</p>
-                <p>Desktop application for accounting of college graduates.</p>
-                <p>Stack: C#, WPF, MVVM, Entity Framework</p>
+                <ol>
+                    <li>
+                        <p><a href="https://romanusovich.github.io/plants/plants/">Here</a> you can find my first project from RSSchool.</p>
+                        <ul>
+                            <li>Web application about plants</li>
+                            <li>Stack: HTML, CSS, JavaScript</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="https://rainbow-kleicha-8dc7e2.netlify.app/">Here</a> you can find my another project.</p>
+                        <ul>
+                            <li>Web application that helps you feel calm, keep focus, and stay energized</li>
+                            <li>Stack: HTML, CSS, JavaScript</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="https://github.com/romanusovich/college">Here</a> you can find my college project.</p>
+                        <ul>
+                            <li>Web application for accounting of college graduates</li>
+                            <li>Stack: C#, ASP.NET Web Api, Entity Framework, SQL</li>
+                        </ul>
+                    </li>
+                </ol>
                 <pre class="code-example">
-                    <code>
-// Команда на добавление выпускника
-private RelayCommand addCommandGraduate;
-public RelayCommand AddCommandGraduate
-{
-    get
-    {
-        return addCommandGraduate ??
-        (addCommandGraduate = new RelayCommand(obj =>
-        {
-            try
-            {
-                var graduate = new Выпускник(SelectedYear.ID_Года_выпуска);
-                Graduates.Add(graduate);
-
-                graduate.Распределение = new ObservableCollection&lt;Распределение>() { new Распределение(graduate.ID_Выпускника) };
-                graduate.Распределение.First().Информация = new ObservableCollection&lt;Информация_о_распределении>();
-                for (int i = 0; i &lt;= 6; i++)
-                {
-                    graduate.Распределение.First().Информация.Add(new Информация_о_распределении() 
-                        { ID_Распределения = graduate.Распределение.First().ID_Распределения, Номер_полугодия = i });
-                }
-
-                SelectedGraduate = graduate;
-            }
-            catch
-            {
-                Graduates.Remove(SelectedGraduate);
-                MessageBox.Show("Выберите год выпуска. " +
-                    "\nЕсли год выпуска выбран, а ошибка осталась, то обратитесь к разработчику", "Не удалось вставить строку");
-            }
-        }));
+export function generatePlayList() {
+    for (var a in playList) {
+        const li = document.createElement('li');
+        li.classList.add('play-item');
+        if (a == 0) li.classList.add('item-active');
+        li.textContent = playList[a].title;
+        playListContainer.append(li);
     }
-}
-                    </code>
-                </pre>
+}</pre>
             </div>
 
             <div class="category-rs education">
@@ -178,7 +171,7 @@ public RelayCommand AddCommandGraduate
                         Rolling Scopes School
                         <ul>
                             <li>Frontend Developer</li>
-                            <li>2022-present</li>
+                            <li>2022, 2026</li>
                         </ul>
                     </li>
                 </ol>
@@ -188,21 +181,22 @@ public RelayCommand AddCommandGraduate
                 <h2 id="languages">Languages</h2>
                 <ol>
                     <li>Russian - Native speaker</li>
-                    <li>English - B1-B2</li>
+                    <li>English - B2</li>
+                    <li>Polish - B1</li>
                 </ol>
             </div>
         </div>
-        
-    </main>  
-    
+
+    </main>
+
     <footer>
         <ul>
             <li class="rslogo">
-                <a href="https://rs.school/js/">
-                    <img  src="https://rs.school/images/rs_school_js.svg" alt="rsschool logo">
+                <a href="https://rs.school/courses/javascript">
+                    <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/9af3d37e80717662fa46835afd2fe6c6f07aff88/tasks/cv/rs-school-logo.svg" alt="rsschool logo">
                 </a>
             </li>
-            <li>2022</li>
+            <li>2022-2026</li>
             <li class="ghicon">
                 <img src="data/github.png" alt="github icon made by icons8">
                 <a href="https://github.com/romanusovich">romanusovich</a>
@@ -210,3 +204,4 @@ public RelayCommand AddCommandGraduate
         </ul>
     </footer>
 </body>
+</html>

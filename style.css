@@ -95,7 +95,7 @@ footer li{
 
 .skills p{
     display: inline-block;
-    width: 30%;
+    width: 35%;
     text-align: right;
     margin: 0.1em;
 }
@@ -156,6 +156,10 @@ footer li{
     font-size: 3em;
 }
 
+.about-me p{
+    font-size: 1.5em;;
+}
+
 .category-rs h2{
     margin: 5px;
     border: 2px solid black;
@@ -166,7 +170,6 @@ footer li{
 .category-rs p{
     text-align: justify;
     margin: 5px;
-    font-size: 1.5em;
 }
 
 .category-rs ul{
@@ -184,4 +187,5 @@ footer li{
     text-align: left;
     background-color: lightgray;
     border: 1px solid black;
+    padding: 10px;
 }
