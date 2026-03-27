@@ -137,6 +137,16 @@
                             <li>Stack: HTML, CSS, JavaScript</li>
                         </ul>
                     </li>
+                    <pre class="code-example">
+    export function generatePlayList() {
+        for (var a in playList) {
+            const li = document.createElement('li');
+            li.classList.add('play-item');
+            if (a == 0) li.classList.add('item-active');
+            li.textContent = playList[a].title;
+            playListContainer.append(li);
+        }
+    }</pre>
                     <li>
                         <p><a href="https://github.com/romanusovich/college">Here</a> you can find my college project.</p>
                         <ul>
@@ -145,7 +155,6 @@
                         </ul>
                     </li>
                 </ol>
-                <pre class="code-example"></pre>
             </div>
 
             <div class="category-rs education">
